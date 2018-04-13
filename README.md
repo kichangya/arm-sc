@@ -5,3 +5,9 @@ You can set up a virtual ARM environment running Raspbian Linux in the QEMU emul
 Refer to
 * https://blahcat.github.io/2017/06/25/qemu-images-to-play-with/
 * https://azeria-labs.com/arm-lab-vm/
+
+$ make
+$ ./exploit
+[*] Jump to shellcode...
+Hello, World!
+[*] Done.
