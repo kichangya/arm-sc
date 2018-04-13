@@ -12,11 +12,11 @@ _exit:
 func:
    push {lr}
    mov r0, #1
-   adr r1, BANNER
+   adr r1, HELLO
    mov r2, #sz
    mov r7, #4	@ write()
    swi #0
    pop {pc}
 
-BANNER: .asciz "Hello, World!\n"	@ .asciz adds a null-byte to the end of the string
-sz = . - BANNER
+HELLO: .asciz "Hello, World!\n"	@ .asciz adds a null-byte to the end of the string
+sz = . - HELLO
