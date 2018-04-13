@@ -12,7 +12,7 @@ _exit:
 func:
    push {lr}
    mov r0, #1
-   adr r1, #BANNER
+   adr r1, BANNER
    mov r2, #sz
    mov r7, #4	@ write()
    swi #0
