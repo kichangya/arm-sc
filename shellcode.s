@@ -14,7 +14,7 @@ func:
    mov r0, #1
    adr r1, #BANNER
    mov r2, #sz
-   mov r7, #4
+   mov r7, #4	@ write()
    swi #0
    pop {pc}
 
