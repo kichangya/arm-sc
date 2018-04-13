@@ -11,3 +11,6 @@ shellcode.bin: shellcode.o
 
 shellcode.h: shellcode.bin
 	xxd -i $< $@
+
+clean:
+	rm -f exploit shellcode.o shellcode.h shellcode.bin
