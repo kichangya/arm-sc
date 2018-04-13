@@ -18,5 +18,5 @@ func:
    swi #0
    pop {pc}
 
-BANNER: .asciz "Hello, World!\n"  @ .asciz adds a null-byte to the end of the string
+BANNER: .asciz "Hello, World!\n"	@ .asciz adds a null-byte to the end of the string
 sz = . - BANNER
