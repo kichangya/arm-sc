@@ -1,7 +1,3 @@
-#
-# I've used Raspbian Linux to learn ARM shellcoding.
-#
-
 all: shellcode.h exploit
 
 exploit: exploit.c shellcode.h
